@@ -2,4 +2,6 @@ language: python
 python:
   - "3.6"      # current default Python on Travis CI
 script:
-  - ./check.sh 12 18
+  - ./check.sh 2 4
+  - ./check.sh 3
+  - ./check.sh a b
